@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <p class="copyright">© {{ now.Format "2006" }} {{.Site.Title}}</p>
+  {{- if .Site.Data.social }}
+  <ul class="social-links">
+    {{ range .Site.Data.social }}
+      <li>
+        <a href="{{ .link }}" target="_blank" aria-label="Follow on {{ .name }}">粤ICP备19134587号</a>
+      </li>
+    {{ end }}
+  </ul>
+  {{- end }}
+</footer>

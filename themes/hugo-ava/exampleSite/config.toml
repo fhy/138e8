@@ -1,7 +1,7 @@
-baseURL = "/"
+baseURL = "https://hugo-theme-ava.netlify.app/"
 languageCode = "en"
-title = "All Times"
-theme = "hugo-ava"
+title = "Hugo Ava Theme"
+theme = "hugo-theme-ava"
 paginate = 7
 mainSections = "post"
 
@@ -25,10 +25,10 @@ canonifyURLs = true
 
   [params.meta_tags]
     meta_description = "Ava is a light theme for your blog with essential features you might dig in."
-    meta_og_title = "All times"
-    meta_og_sitename = "古往今来"
+    meta_og_title = "Hugo Ava Theme"
+    meta_og_sitename = "Hugo Ava Theme"
     meta_og_type = "website"
-    meta_og_url = "https://138e8.com"
+    meta_og_url = "https://hugo-ava.netlify.app"
     meta_og_image = "https://raw.githubusercontent.com/jmau111/hugo-theme-ava/main/images/default.jpeg"
     meta_og_description = "Ava is a light theme for your blog with essential features you might dig in."
     meta_twitter_card = "summary"
